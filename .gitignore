@@ -1,0 +1,77 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+xvba_debug.log
+
+# Temporary files
+*.tmp
+*.bak
+
+# Test/Debug files (không cần thiết cho deploy)
+test_*.py
+*_test.py
+debug_*.py
+investigate_*.py
+comparison_lgbm_vs_major.py
+create_balanced_5_majors.py
+step1_test.py
+
+# Old versions
+streamlit_dashboard.py
+major_predictions.csv
+major_predictions_results.csv
+demo_major_weights.csv
+demo_major_weights_balanced.csv
+
+# Model files (large - sẽ train lại)
+Data/*.txt
+Data/*.pkl
+
+# Notebooks (chỉ giữ main notebook)
+Data/generate_student_grades.ipynb
+Data/student_grade_generator_clean.ipynb
+major_prediction.ipynb
+
+# Streamlit cache
+.streamlit/
